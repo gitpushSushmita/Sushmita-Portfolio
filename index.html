@@ -1,44 +1,186 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Sushmita | Portfolio </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="mediaqueries.css">
-    </head>
-    <body>
-        <nav id="desktop-nav">
-            <div class="logo"> SP </div>
-            <div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Sushmita | Portfolio</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">Sushmita</div>
                 <ul class="nav-links">
-                    <li><a href="#about">About</a> </li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#frontend">Front-end</a></li>
+                    <li><a href="#backend">Back-end</a></li>
+                    <li><a href="#database">Database</a></li>
+                    <li><a href="#nocode">No-Code</a></li>
+
                 </ul>
             </div>
         </nav>
-        <nav id="hamburger-nav">
-            <div class="logo"> SP </div>
-            <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick="toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="menu-links">
-                    <li><a href="#about" onclick="toggleMenu()">About</a> </li>
-                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+ 
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello! I am a passionate developer with a love for creating efficient and user-friendly web applications.</p>
+                        <p>I have experience in front-end and back-end development, and I'm always eager to learn new technologies to enhance my skills.</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <!-- <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>-->
+                            <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                            
+                        </div>
+                        <div class="about-image"></div>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/about.png" alt="Profile Photo">
+                        <a href="resume.pdf" class="resume-button" target="_blank">Download Resume</a>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <section id="profile">
-            <div class="section"></div>
         </section>
-        <script src="script.js" async defer></script>
-    </body>
+        
+        <section id="frontend" class="project-section">
+            <h2>Front-end Projects</h2>
+            <!-- Add project tiles here -->
+            <div class="project-tiles">
+                <div class="project-tile">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1 - Front-end</h3>
+                    <p>A description of Project 1.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="backend" class="project-section">
+            <h2>Back-end Projects</h2>
+            <!-- Add project tiles here -->
+            <div class="project-tiles">
+                <div class="project-tile">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1 - Front-end</h3>
+                    <p>A description of Project 1.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+        
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+            </div>     
+        </section>
+
+        <section id="database" class="project-section">
+            <h2>Database Projects</h2>
+            <!-- Add project tiles here -->
+            <div class="project-tiles">
+                <div class="project-tile">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1 - Front-end</h3>
+                    <p>A description of Project 1.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+        
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="nocode" class="project-section">
+            <h2>No-Code Projects</h2>
+            <!-- Add project tiles here -->
+            <div class="project-tiles">
+                <div class="project-tile">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1 - Front-end</h3>
+                    <p>A description of Project 1.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank">GitHub</a>
+                </div>
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+        
+                <div class="project-tile">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2 - Front-end</h3>
+                    <p>A description of Project 2.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 Sushmita Paul All rights reserved.</p>
+    </footer>
+    <div class="back-to-top">
+        <a href="#top"><i class="fa fa-arrow-up"></i></a>
+    </div>
+</body>
 </html>
