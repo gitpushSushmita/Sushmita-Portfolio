@@ -11,39 +11,62 @@
 </head>
 <body>
     <div class="wrapper">
-        <nav class="navbar">
-            <div class="container">
-                <div class="logo">Sushmita</div>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#frontend">Front-end</a></li>
-                    <li><a href="#backend">Back-end</a></li>
-                    <li><a href="#database">Database</a></li>
-                    <li><a href="#nocode">No-Code</a></li>
-
-                </ul>
+        <div class="topnav">
+            <a href="#home" class="active">SP</a>
+            <div id="myLinks">
+              <a href="#about">About</a>
+              <a href="#frontend">Front-end</a>
+              <a href="#backend">Back-end</a>
+              <a href="#database">Database</a>
+              <a href="#nocode">No-code</a>
             </div>
-        </nav>
- 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
         <section id="about" class="about-section">
             <div class="container">
                 <h2>About Me</h2>
                 <div class="about-content">
                     <div class="about-text">
                         <p>Hello! I am a passionate developer with a love for creating efficient and user-friendly web applications.</p>
-                        <p>I have experience in front-end and back-end development, and I'm always eager to learn new technologies to enhance my skills.</p>
+                        <p>I have experience in front-end, back-end development and Databases, and I'm always eager to learn new technologies to enhance my skills.</p>
                         <div class="social-links">
-                            <a href="https://www.linkedin.com/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/sushmita-in/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             <!-- <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>-->
-                            <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/gitpushSushmita" target="_blank"><i class="fab fa-github"></i></a>
                             
                         </div>
                         <div class="about-image"></div>
                     </div>
                     <div class="about-image">
                         <img src="assets/about.png" alt="Profile Photo">
-                        <a href="resume.pdf" class="resume-button" target="_blank">Download Resume</a>
+                        <a href="assets/Sushmita Paul Resume.pdf" class="resume-button" target="_blank">Download Resume</a>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <div class="skill">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                        <p>Proficient in various programming languages and technologies.</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Design</h3>
+                        <p>Skilled in creating visually appealing and user-centered designs.</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-database"></i>
+                        <h3>Database</h3>
+                        <p>Experienced in designing and optimizing databases.</p>
+                    </div>
+                    <!-- Add more skills here -->
                 </div>
             </div>
         </section>
@@ -53,10 +76,11 @@
             <!-- Add project tiles here -->
             <div class="project-tiles">
                 <div class="project-tile">
-                    <img src="project1.jpg" alt="Project 1">
+                    <img src="assets/about.png" alt="Project 1">
                     <h3>Project 1 - Front-end</h3>
                     <p>A description of Project 1.</p>
-                    <a href="https://github.com/yourusername/project1" target="_blank">GitHub</a>
+                    <a href="https://github.com/yourusername/project1" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/yourusername/project1" target="_blank"><i class="fa fa-share"></i></a>
                 </div>
                 <div class="project-tile">
                     <img src="project2.jpg" alt="Project 2">
